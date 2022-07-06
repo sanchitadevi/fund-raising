@@ -188,3 +188,37 @@ form input {
 #middle-three img{
     width: 80%;
 } 
+
+#bottom{
+    text-align: center;
+}
+.update h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.update p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.update input{
+    display: inline;
+    padding: 10px 10px;
+    font-size: 20px;
+    width: 20%;
+    border: 1px solid #797979;
+    color: #BBBBBB;
+    font-size: 20px;
+    text-align: left;
+}
+
+#button{
+    color: white;
+    background-color: #F5516C;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid #F5516C;
+    cursor: pointer;
+}
