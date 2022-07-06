@@ -231,6 +231,10 @@ form input {
     border: none;
 }
 .update h1{
+    left: 0px;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
     font-size: 40px;
     font-weight: 700;
 }
@@ -250,7 +254,6 @@ form input {
     font-size: 20px;
     text-align: left;
     margin-top: 50px;
-    
     border: 0;
 }
 
@@ -267,40 +270,51 @@ form input {
 }
 
 footer{
-    padding-top: 20px;
-    padding-bottom: 0;
-    margin-top: 80px;
-    background-color: #636262;
-    height: 160px;
-    margin-bottom: 0;
-    text-align: center;
+    background: black;
+    height: auto;
+    width: 100%;
+    padding-top: 25px;
     color: white;
+    margin-top: 100px;
+    
 }
 
-.social-icon{
+.footer-content{
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 10px 0;
-}
-
-.social-item img{
-    height: 30px;
-    width: 30px;
-    margin: 0 10px;
-}
-footer h3{
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
-    font-size: 25px;
-    font-weight: 600;
+ }
+
+.footer-content h3{
     left: 0px;
     top: 0px;
     padding: 0px;
-    margin: 10px 0;
-    color: #960f25;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(255, 166, 0);
+ }
+
+ .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+ }
+
+.footer-end{
+    background: grey;
+    width: 100%;
+    height: 40px;
+    padding: 10px 0;
+    text-align: center;
 }
 
-footer p{
-    margin-top: 30px;
+.footer-end p{
     font-size: 15px;
+    text-transform: capitalize;
 }
+
