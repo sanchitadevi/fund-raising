@@ -61,6 +61,7 @@ body{
 }
 
 #middle-one h1 {
+    padding-left: 10px;
     font-size: 50px;
     text-transform: uppercase;
     margin: 0 50px;
@@ -100,7 +101,7 @@ li{
 
 form input {
     display: block;
-    width: 75%;
+    width: 55%;
     margin: 35px auto;
     padding: 10px;
     border: none;
@@ -108,6 +109,7 @@ form input {
     color: #BBBBBB;
     font-size: 20px;
     text-align: center;
+    
 }
 
 #middle-two{
@@ -139,9 +141,9 @@ form input {
 }
 
 .half-width{
-    padding: 40px 20px;
-    width: 60%;
-    margin-left: 10px;
+    padding: 30px 20px;
+    width: 70%;
+    margin-left: 20px;
     margin-right: 10px;
 }
 
@@ -188,7 +190,8 @@ form input {
 }
 
 #middle-three img{
-    width: 80%;
+    width: 90%;
+    height: 350px;
 } 
 
 #middle-last{
@@ -230,6 +233,11 @@ form input {
     padding: 10px 0;
     border: none;
 }
+
+.update{
+    margin: 0;
+}
+
 .update h1{
     left: 0px;
     top: 0px;
@@ -254,10 +262,11 @@ form input {
     font-size: 20px;
     text-align: left;
     margin-top: 50px;
-    border: 0;
+    border: none;
+    outline: none;
 }
 
-#button{
+.box .button{
     display: inline;
     color: white;
     background-color: #F5516C;
@@ -267,6 +276,7 @@ form input {
     cursor: pointer;
     margin: 0;
     border-radius: 0 5px 5px 0;
+    
 }
 
 footer{
@@ -300,7 +310,6 @@ footer{
  .footer-content p{
     max-width: 500px;
     margin: 10px auto;
-    line-height: 20px;
     font-size: 20px;
     padding-bottom: 10px;
     font-weight: 100;
@@ -319,5 +328,6 @@ footer{
 }
 
 .footer-end span{
+  
     opacity: 0.5;
 }
