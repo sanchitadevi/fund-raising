@@ -109,3 +109,59 @@ form input {
     font-size: 20px;
     text-align: center;
 }
+
+#middle-two{
+    text-align: center;
+    margin: 75px;
+    padding: 5% 0;
+}
+
+.center h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0 50px;
+}
+
+.center p{
+    text-align: center;
+    color: rgb(99, 96, 96);
+    font-size: 20px;
+    font-weight: 100;
+    margin: 20px 80px;
+    padding: 0 15%;
+    margin-bottom: 50px;
+}
+
+.flexible{
+    display: flex; 
+    margin-bottom: 80px;
+    padding: 0 10%;
+}
+
+.half-width{
+    padding: 40px 20px;
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.half-width p{
+    font-weight: 150;
+    font-size: 20px;
+}
+
+.half-width img{
+    padding-top: 10px;
+}
+
+#first{
+    background-color: #f8e7eb;
+}
+
+#second{
+    background-color: #f5f4f4;
+}
+
+#third{
+    background-color: rgb(230, 248, 242);
+}
