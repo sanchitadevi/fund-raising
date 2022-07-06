@@ -44,93 +44,68 @@ body{
     padding-bottom: 18px;
 }
 
-.blocks{
-    padding: 10px 10px;
-    text-decoration: none;
-    text-align: center;
+.button{
     color: white;
-    border-radius: 5px;
+    background-color: #F5516C;
+    padding: 10px 20px;
     font-size: 20px;
-    font-weight: 500;
-    justify-content: center;
-    display: block;
-    align-items:center;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    width: 120px;
-    height: 30px;
- 
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
-#donate{
-    background-color: rgb(245, 81, 108);  
-    margin-bottom: 20px;
-}
-
-/*#read{
-    border: 1px solid rgb(245, 81, 108);
-}*/
-
-#middle-one{
-    padding: 5%;
-    display: flex;
+#middle-one {
     text-align: center;
-    width: 50%;
+    margin: 75px;
+    padding: 5% 0;
 }
 
-
-.title h1{
-    font-size: 40px ;
-    font-weight: 700;
-    text-align: center;
-    color: black;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
+#middle-one h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0 50px;
 }
 
-.title p{
+#middle-one p {
     text-align: center;
     color: rgb(99, 96, 96);
     font-size: 22px;
     font-weight: 100;
-    padding-left: 25%;
-    padding-right: 25%;
-
+    margin: 30px 80px;
+    padding: 0 10%;
 }
 
-.lists{
-    font-size: 20px;
+ul{
     display: flex;
+    width: 75%;
+    margin: 0 auto;
 }
 
-.half{
-    padding: 50px 80px;
-    display: inline-block;
+li{
+    list-style: none;
+    background-color: #F9F9F9;
+    width: 15%;
+    padding: 40px 10px;
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 5px;
 }
 
-#amount{
-   margin-bottom: 20px;
+#selected {
+    border: 2px solid #F5516C;
+    color: #F5516C;
+    background-color: #FFEEF1;
 }
 
-.other{
-    display: flex;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    width: 250px;
-    height: 50px;
-    display: flex;
+form input {
+    display: block;
+    width: 75%;
+    margin: 35px auto;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #797979;
+    color: #BBBBBB;
     font-size: 20px;
     text-align: center;
-    width: 50%;
-    outline: 0;
-    border-width: 0 0 2px;
-    border-color: rgb(186, 186, 190);
 }
