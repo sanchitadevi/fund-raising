@@ -174,7 +174,7 @@ form input {
 }
 
 #middle-three h1{
-    font-size: 55px ;
+    font-size: 40px ;
     font-weight: 700;
     text-align: left; 
     left: 0px;
@@ -182,15 +182,53 @@ form input {
     padding: 0px;
     margin: 0px;
 }
+
 #middle-three p{
     padding-right: 30px;
 }
+
 #middle-three img{
+    width: 80%;
+} 
+
+#middle-last{
+    display: flex;
+    width: 90%;
+    margin: 75px;
+    padding-left: 20px;
+}
+
+#middle-last h1{
+    font-size: 40px ;
+    font-weight: 700;
+    text-align: left; 
+    left: 0px;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#middle-last p{
+    padding-right: 30px;
+}
+
+#middle-last img{
+    height: 100%;
     width: 80%;
 } 
 
 #bottom{
     text-align: center;
+}
+
+.box{
+    height: 150px;
+    background-color: rgb(247, 247, 220);
+    display: block;
+    width: 50%;
+    margin: 50px auto;
+    padding: 10px 0;
+    border: none;
 }
 .update h1{
     font-size: 40px;
@@ -205,20 +243,63 @@ form input {
 
 .update input{
     display: inline;
-    padding: 10px 10px;
+    padding: 12px 10px;
     font-size: 20px;
-    width: 20%;
-    border: 1px solid #797979;
-    color: #BBBBBB;
+    width: 40%;
+    color: #797979;
     font-size: 20px;
     text-align: left;
+    margin-top: 50px;
+    
+    border: 0;
 }
 
 #button{
+    display: inline;
     color: white;
     background-color: #F5516C;
     padding: 10px 20px;
     font-size: 20px;
-    border: 1px solid #F5516C;
+    border: 0;
     cursor: pointer;
+    margin: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-top: 80px;
+    background-color: #F5516C;
+    height: 160px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.social-item img{
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+}
+footer h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    left: 0px;
+    top: 0px;
+    padding: 0px;
+    margin: 10px 0;
+}
+
+footer p{
+    margin-top: 30px;
+    font-size: 15px;
 }
