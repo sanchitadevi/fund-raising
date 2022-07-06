@@ -165,3 +165,26 @@ form input {
 #third{
     background-color: rgb(230, 248, 242);
 }
+
+#middle-three{
+    display: flex;
+    width: 90%;
+    margin: 75px;
+    padding-left: 20px;
+}
+
+#middle-three h1{
+    font-size: 55px ;
+    font-weight: 700;
+    text-align: left; 
+    left: 0px;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+#middle-three p{
+    padding-right: 30px;
+}
+#middle-three img{
+    width: 80%;
+} 
