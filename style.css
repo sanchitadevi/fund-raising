@@ -209,7 +209,7 @@ form input {
 }
 
 #middle-last p{
-    padding-right: 30px;
+    padding-right: 50px;
 }
 
 #middle-last img{
@@ -270,7 +270,7 @@ footer{
     padding-top: 20px;
     padding-bottom: 0;
     margin-top: 80px;
-    background-color: #F5516C;
+    background-color: #636262;
     height: 160px;
     margin-bottom: 0;
     text-align: center;
@@ -291,12 +291,13 @@ footer{
 }
 footer h3{
     text-align: center;
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 600;
     left: 0px;
     top: 0px;
     padding: 0px;
     margin: 10px 0;
+    color: #960f25;
 }
 
 footer p{
