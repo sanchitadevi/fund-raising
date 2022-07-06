@@ -303,6 +303,7 @@ footer{
     line-height: 20px;
     font-size: 20px;
     padding-bottom: 10px;
+    font-weight: 100;
  }
 
 .footer-end{
@@ -318,3 +319,6 @@ footer{
     text-transform: capitalize;
 }
 
+.footer-end span{
+    opacity: 0.5;
+}
